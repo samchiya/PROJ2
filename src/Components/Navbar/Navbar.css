@@ -1,0 +1,87 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between elements */
+    align-items: center; /* Aligns items vertically centered */
+    padding: 0 20px; /* Adds padding to the left and right */
+    background-color: #fff; /* Background color for the navbar */
+    box-shadow: 0 1px 3px -2px black;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically centered */
+  }
+  .nav-logo p{
+    color: black;
+    font-size: 50 px;
+    font-weight: 600;
+  }
+  .nav-logo img {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px; /* Space between logo image and text */
+  }
+  
+  .nav-menu {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Aligns menu items in a row */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-size: 20 px;
+    color: black
+  }
+  
+  .nav-menu li {
+    margin: 0 15px; /* Adjusts space between menu items */
+    cursor: pointer;
+  }
+  .nav-menu hr{
+    border: none;
+    width: 80%;
+    height :3px;
+    border-radius: 10px;
+    background: red;
+  }
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center; /* Aligns login button and cart icon vertically centered */
+    gap:45px
+
+  }
+  
+  .nav-login-cart button {
+    /* Space between button and cart icon */
+    width:157px;
+    height:40px;
+    outline:none;
+    border:1px solid grey;
+    border-radius:75px;
+    color:#515151;
+    font-weight:500;
+    background: #fff;
+    cursor: pointer;
+    
+  }
+  .nav-login-cart button:active{
+    background: #f3f3f3;
+  }
+  
+  .nav-login-cart img {
+    height: 30px; /* Adjust as needed */
+  }
+ .nav-cart-count{
+  width:22px;
+  height: 22px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+
+ }
